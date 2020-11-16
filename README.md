@@ -19,7 +19,7 @@ Other useful bits:
 
 A 24V AC power supply is used since the sprinkler valves use 24V AC (note AC, not DC).  A convertor is used to convert the 24V AC to 12V DC for the relay board.  This relay board produces 5V DC which can be used to power the Raspberry Pi Zero. GPIO outputs are used to drive the relays.  These can be done using any set of GPIO pins, but they must be consistent with the table in the JSON file.  As it turns out, these 3.3V outputs are not ideal for the expected 5V of the relay board, but the pull down to 0V works.  So the code will pull the GPIO pin low to activate the relay, and then when not is use, the code disable the GPIO pin.
 
-The relays are wired with ground to the normally closed pins, although this is probably not necessary. The normally open pins are set to 24V AC to drive the sprinkler valves.  The relay outputs go to the various sprinkler valves, wia the 16 terminal strips, although these could also be wired directly.
+The relays are wired with ground to the normally closed pins, although this is probably not necessary. The normally open pins are set to 24V AC to drive the sprinkler valves.  The relay outputs go to the various sprinkler valves, via the 16 terminal strips, although these could also be wired directly.
 
 It should be noted that this design is simple and general purpose and could be used to control other devices with appropriate changes.
 
