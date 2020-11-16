@@ -10,7 +10,9 @@ This Raspberry Pi Zero based Sprikler controller is a simple GPIO based controll
 
 Other useful bits:
 
-* 
+* [**Screw Terminal Fuse Holder**](https://smile.amazon.com/gp/product/B072YLL65L/)
+* [**Terminal Block Set, 5Pcs 3 Positions 600V 15A Dual Row Screw Terminals Strip**](https://smile.amazon.com/gp/product/B07Y21YYVD/)
+* [**Terminal Block Set, 5Pcs 8 Positions 600V 15A Dual Row Screw Terminals Strip**](https://smile.amazon.com/gp/product/B07Y21HB4G/)
 
 # Help
 ```
