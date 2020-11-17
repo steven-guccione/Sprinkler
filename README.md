@@ -41,4 +41,10 @@ optional arguments:
 
 ```
 
+# Sample Run
+
+![Sample Run](Sprinkler_run.png)
+
+# Hardware Photo
+
 ![Sprinkler Controller Photo](Sprinkler_photo.jpg)
